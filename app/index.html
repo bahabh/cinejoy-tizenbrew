@@ -1,72 +1,46 @@
-```html
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>Cinejoy</title>
+    <title>Cinejoy Test</title>
 
     <style>
-        html,
-        body {
-            width: 100%;
-            height: 100%;
+        html, body {
             margin: 0;
             padding: 0;
-            background: #000;
-            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            background: #111;
+            color: white;
+            font-family: Arial, sans-serif;
         }
 
-        #loading {
-            position: fixed;
-            inset: 0;
-
+        body {
             display: flex;
             align-items: center;
             justify-content: center;
+            text-align: center;
+        }
 
-            background: #000;
-            color: #fff;
+        .box {
+            font-size: 40px;
+        }
 
-            font-family: Arial, sans-serif;
-            font-size: 32px;
-
-            z-index: 9999;
+        .small {
+            margin-top: 20px;
+            font-size: 22px;
+            color: #aaa;
         }
     </style>
 </head>
 
 <body>
-
-<div id="loading">
-    Loading Cinejoy...
-</div>
-
-<script>
-    /*
-     * Cinejoy TizenBrew launcher
-     *
-     * TizenBrew loads this page locally and then
-     * redirects the TV browser to Cinejoy.
-     */
-
-    const CINEJOY_URL = "https://cinejoy.to/";
-
-    /*
-     * Give the TV a moment to display the loading screen,
-     * then navigate directly to Cinejoy.
-     */
-    setTimeout(function () {
-        window.location.replace(CINEJOY_URL);
-    }, 300);
-</script>
-
+    <div class="box">
+        Cinejoy module is working
+        <div class="small">
+            TizenBrew successfully launched the app.
+        </div>
+    </div>
 </body>
 </html>
-```
-
