@@ -1,10 +1,10 @@
 {
-  "name": "cinejoy-tizenbrew-v2",
-  "version": "1.0.1",
+  "name": "Cinejoy",
+  "version": "1.0.0",
   "type": "module",
-  "description": "Cinejoy TizenBrew application",
+  "description": "Cinejoy hosted TizenBrew wrapper",
   "packageType": "app",
-  "appName": "Cinejoy V2",
+  "appName": "Cinejoy",
   "appPath": "app/index.html",
   "keys": [
     "MediaPlay",
