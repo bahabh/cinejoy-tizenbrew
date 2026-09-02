@@ -1,15 +1,12 @@
 {
   "name": "cinejoy-tizenbrew",
-  "version": "1.0.0",
-  "description": "Cinejoy web app for Samsung TVs using TizenBrew",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "Cinejoy TizenBrew application",
   "packageType": "app",
   "appName": "Cinejoy",
   "appPath": "app/index.html",
   "keys": [
-    "ColorF0Red",
-    "ColorF1Green",
-    "ColorF2Yellow",
-    "ColorF3Blue",
     "MediaPlay",
     "MediaPause",
     "MediaPlayPause",
@@ -19,6 +16,9 @@
     "MediaTrackPrevious",
     "MediaTrackNext"
   ],
-  "evaluateScriptOnDocumentStart": false
+  "evaluateScriptOnDocumentStart": false,
+  "files": [
+    "app",
+    "README.md"
+  ]
 }
-
