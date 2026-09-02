@@ -2,16 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-
-    <title>Cinejoy Test</title>
+    <title>Cinejoy</title>
 
     <style>
         html, body {
             margin: 0;
-            padding: 0;
             width: 100%;
             height: 100%;
-            background: #111;
+            background: #000;
             color: white;
             font-family: Arial, sans-serif;
         }
@@ -20,27 +18,26 @@
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        #status {
             text-align: center;
-        }
-
-        .box {
-            font-size: 40px;
-        }
-
-        .small {
-            margin-top: 20px;
-            font-size: 22px;
-            color: #aaa;
+            font-size: 32px;
         }
     </style>
 </head>
 
 <body>
-    <div class="box">
-        Cinejoy module is working
-        <div class="small">
-            TizenBrew successfully launched the app.
-        </div>
-    </div>
+
+<div id="status">
+    Opening Cinejoy...
+</div>
+
+<script>
+    setTimeout(function () {
+        window.location.href = "https://cinejoy.to/";
+    }, 2000);
+</script>
+
 </body>
 </html>
