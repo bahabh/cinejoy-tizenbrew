@@ -1,0 +1,23 @@
+{
+  "name": "cinejoy-tizenbrew",
+  "version": "1.0.0",
+  "description": "Cinejoy web app for TizenBrew",
+  "packageType": "app",
+  "appName": "Cinejoy",
+  "appPath": "app/index.html",
+  "keys": [
+    "MediaPlay",
+    "MediaPause",
+    "MediaPlayPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind",
+    "MediaTrackPrevious",
+    "MediaTrackNext"
+  ],
+  "evaluateScriptOnDocumentStart": false,
+  "files": [
+    "app",
+    "package.json"
+  ]
+}
